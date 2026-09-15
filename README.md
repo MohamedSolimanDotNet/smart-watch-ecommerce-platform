@@ -473,7 +473,7 @@ Uses Entity Framework Core together with Repository and Unit of Work patterns to
 
 The home page provides an overview of the Smart Watch Store, including the latest watches, product features, company information, contact section, and customer testimonials.
 
-![Smart Watch Store Home Page](docs/home-page.jpg)
+![Smart Watch Store Home Page](docs/watchstore.jpg)
 
 ---
 
