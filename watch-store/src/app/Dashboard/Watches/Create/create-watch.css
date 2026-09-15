@@ -1,0 +1,39 @@
+
+.content-form{
+  height: 100vh;
+}
+
+.content-form  form {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+}
+
+.content-form input:not(:last-of-type){
+  background-color: #fff;
+  border: 2px solid gray;
+  color: #000;
+  box-shadow: 0 0 2px rgb(0 ,0 ,0, 30%);
+}
+
+button, .back-btn{
+  width: calc(100% / 2 - 20px);
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px 0;
+  border: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.back-btn{
+  background-color: var(--bgGray);
+}
+.submit-btn{
+  background-color: var(--mainColor);
+}

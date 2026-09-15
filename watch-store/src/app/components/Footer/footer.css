@@ -1,0 +1,114 @@
+.footer_section {
+  background-color: var(--bgGray);
+  color: #ffffff;
+  padding-top: 60px;
+}
+
+.footer_section h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer_detail p{
+  font-weight: bold;
+  width: 270px;
+}
+
+.footer_section .footer_social {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer_section .footer_social a {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: var(--bgGray);
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  border-radius: 100%;
+  margin-right: 10px;
+  font-size: 18px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+
+.footer_section .footer_social a:hover {
+  color: var(--mainColor);
+}
+
+.footer_section .footer_contact .contact_link_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_section .footer_contact .contact_link_box a {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.footer_section .footer_contact .contact_link_box a svg {
+  margin-right: 5px;
+}
+
+.footer_section form input {
+  border: none;
+  padding: 10px;
+  background-color: #4d618c;
+  width: 100%;
+  height: 45px;
+  color: #ffffff;
+  outline: none;
+}
+
+.footer_section form input::placeholder{
+  color: #fff;
+}
+
+.footer_section form button {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 55px;
+  background-color: var(--mainColor);
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid var(--mainColor);
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer_section form button:hover {
+  color: #ffffff;
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
+
+.footer_section .footer-info {
+  text-align: center;
+}
+
+.footer_section .footer-info p {
+  padding: 25px 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.footer_section .footer-info p a {
+  color: var(--mainColor);
+  margin-left: 5px;
+}
+
