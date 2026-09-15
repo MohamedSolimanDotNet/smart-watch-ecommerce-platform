@@ -469,44 +469,11 @@ Uses Entity Framework Core together with Repository and Unit of Work patterns to
 
 # Screenshots
 
-Project screenshots can be added to a `docs` folder and displayed here.
+## Home Page
 
-### Home Page
+The home page provides an overview of the Smart Watch Store, including the latest watches, product features, company information, contact section, and customer testimonials.
 
-```text
-docs/home.png
-```
-
-### Watches
-
-```text
-docs/watches.png
-```
-
-### Login
-
-```text
-docs/login.png
-```
-
-### Admin Dashboard
-
-```text
-docs/dashboard.png
-```
-
-### Watch Management
-
-```text
-docs/watch-management.png
-```
-
-Once screenshots are added to the repository, they can be displayed using:
-
-```markdown
-![Home Page](docs/home.png)
-![Admin Dashboard](docs/dashboard.png)
-```
+![Smart Watch Store Home Page](docs/home-page.jpg)
 
 ---
 
